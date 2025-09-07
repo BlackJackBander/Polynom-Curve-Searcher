@@ -150,3 +150,16 @@ $$P(x_i) = y_i \quad \text{для } i=1,...,n$$
 
 И еще пример для акции GOOGLE с 2024 года:
 <img width="935" height="442" alt="изображение" src="https://github.com/user-attachments/assets/d263319e-b028-45aa-a6f1-8d37b6c2cc72" />
+
+Количество экстремумов: 34
+Степень полинома: 5
+RMSE: 14.60256 
+```r
+> print(head(points_df, 5))
+       x      y    type
+1  19751 154.84 Maximum
+18 19753 141.80 Minimum
+2  19762 150.22 Maximum
+19 19788 132.56 Minimum
+3  19824 160.79 Maximum
+```
